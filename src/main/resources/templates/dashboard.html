@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Employee Details</h1>
+        <!-- Ensure correct spelling and case for field names -->
+        <p><strong>First Name:</strong> <span th:text="${stu.firstName}"></span></p>
+        <p><strong>Last Name:</strong> <span th:text="${stu.lastName}"></span></p>
+        <p><strong>Email:</strong> <span th:text="${stu.emailId}"></span></p>
+    </div>
+</body>
+</html>
